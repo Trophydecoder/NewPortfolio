@@ -1,0 +1,85 @@
+.ContainerforHeading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.Heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.design{
+    width: 20%;
+}
+.Welcome{
+    width: 70%;
+
+}
+
+.Welcome h1{
+ font-size: 20px;
+ color:#fc9700;
+ font-family: poppins,sans-serif;
+ font-weight: bolder;
+}
+.Welcome p{
+    color: rgb(139, 139, 139);
+    font-family: poppins,sans-serif;
+}
+.Welcome p span{
+    color:#fc9700;
+    font-family: poppins,sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#icon{
+    width: 90%;
+}
+.api{
+    display: none;
+}
+.MainContainer{
+    flex-direction: row;
+    display: flex;
+  
+}
+.Boxes{
+    width: 50%;
+    border: 1px solid black;
+    text-align: center;
+    margin: 2%;
+}
+.Boxes h1{
+    font-size: 15px;
+    margin-top: -2%;
+}
+@media screen and (min-width: 1024px){
+    .MainContainer{
+        flex-direction: row;
+        display: flex;
+    }    
+    .ContainerforHeading{
+     width: 80%;
+     margin-left: 16%;
+     margin-top: 5%;
+
+    }
+    .Welcome h1{
+      font-size: 35px;
+    }
+    .Welcome{
+        width: 40%;
+    }
+    .design{
+        width: 10%;
+    }
+    .api{
+        display: flex;
+        width: 70%;
+    }
+}

@@ -1,0 +1,78 @@
+.ContainerNavbar{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #edeade; /* Light cream */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.logocontainer{
+  width: 50%;
+}
+#logoIMG{
+  width: 50%;
+}
+.barcontainer{
+ width: 50%;
+
+ justify-content: right;
+ display: flex;
+}
+.bars{
+  padding-right: 15%;
+  align-items: center;
+  display: flex;
+}
+.fa{
+  font-size: 15px;
+}
+
+.navbar-slide {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: #1c758b;
+  color: #fff;
+  transition: width 0.5s;
+  overflow-x: hidden;
+}
+.DesktopNav{
+ display: none;
+}
+
+@media screen and (min-width: 1024px){
+  .ContainerNavbar{
+   height: 10vh;
+  }
+  .barcontainer{
+    display: none;
+  }
+  .logocontainer{
+    width: 30%;
+    padding-left: 10%;
+    align-items: center;
+  }
+  #logoIMG{
+    width: 35%;
+    padding-left: 13%;
+   
+  }
+  .DesktopNav{
+    width: 40%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+   }
+   .Desktop{
+    flex-direction: row;
+    display: flex;
+   }
+   .Desktop a{
+    margin: 5%;
+    text-wrap: nowrap;
+    text-decoration: none;
+    color:#000000;
+    font-family: poppins , sans-serif;
+   }
+}
