@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './carousel.component.scss'
 })
 export class CarouselComponent {
-  backgroundImage = '/assets/devBG.png';
+  backgroundImage = '/assets/aboutBG.png';
   
   ngOnInit(): void {
   
