@@ -56,10 +56,54 @@
     margin-top: -2%;
 }
 @media screen and (min-width: 1024px){
-    .MainContainer{
-        flex-direction: row;
-        display: flex;
-    }    
+    .image{
+        margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+   } 
+   #cartoon{
+    width: 30%;
+   }
+   .Aboutme{
+    width: 40%;;
+
+   }
+   .Aboutme h1{
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     color: #fc9700;
+   }
+   .Aboutme p{
+    margin-top: -1%;
+    color:grey;
+   }
+   .boxesContainer{
+    width: 89%;
+
+     display: flex;
+
+   }
+   .Boxes{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width:16%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 9px;
+   }
+   .Boxes p{
+
+    
+   }
+   #angular{
+        width: 100%;
+   }
+   #node{
+    width: 60%;
+   }
     .ContainerforHeading{
      width: 80%;
      margin-left: 16%;
@@ -78,5 +122,8 @@
     .api{
         display: flex;
         width: 70%;
+    }
+    #id{
+
     }
 }
