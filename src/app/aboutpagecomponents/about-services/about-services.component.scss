@@ -1,0 +1,96 @@
+.ContainerHeading {
+    width: 100%;
+}
+
+.heading {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.heading h1 {
+    font-family: poppins, sans-serif;
+    color: #0069d9;
+    text-align: center;
+}
+
+.heading p {
+    margin-top: -1%;
+    color: gray;
+    display: none;
+}
+
+.ContainerWhychooseus {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.fas {
+    color: #fc9700;
+    font-size: 15px;
+}
+#text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#chooseusimg {
+    width: 80%;
+    padding-left: 6%;
+    display: none;
+}
+
+.Whychooseus {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.Whychooseus p {
+    color: gray;
+}
+
+@media screen and (min-width: 1024px) {
+    .ContainerWhychooseus {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+
+    }
+
+    #chooseusimg {
+        width: 90%;
+        padding-left: 9%;
+        display: flex;
+    }
+
+    .Whychooseus {
+        display: flex;
+        flex-direction: column;
+        width: 15%;
+        margin-top: 5%;
+        text-align: left;
+        padding-left: 0%;
+    }
+
+    .heading p {
+        margin-top: -1%;
+        color: gray;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
