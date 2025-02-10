@@ -1,6 +1,6 @@
 .footer {
-    background-color:#707070;
-    color: #fff;
+  background-color: #edeade; /* Light cream */
+    color: #000000;
     padding: 20px;
     text-align: center;
   }
@@ -32,8 +32,8 @@
   
   .footer-links h3 {
     margin-top: 0;
-    color:#ffffff;
-    text-decoration: underline;
+    color: #fc9700;
+    text-decoration: none;
   }
   
   .footer-links ul {
@@ -41,6 +41,7 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    
   }
   
   .footer-links li {
@@ -48,7 +49,7 @@
   }
   
   .footer-link {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     transition: color 0.2s ease;
   }
@@ -64,8 +65,8 @@
   
   .footer-social h3 {
     margin-top: 0;
-    color:#ffffff;
-    text-decoration: underline;
+    color: #fc9700;
+    text-decoration: none;
 
 
   }
@@ -73,7 +74,7 @@
   .footer-social-link {
     margin-right: 10px;
     font-size: 24px;
-    color: #fff;
+    color: #fc9700;
     transition: color 0.2s ease;
   }
   
@@ -87,7 +88,7 @@
     padding: 10px;
     text-align: center;
     clear: both;
-    border-top: 1px solid #feffff;
+    border-top: 1px solid  #fc9700;
   }
   @media screen and (min-width: 1024px){
     .footer-container {
