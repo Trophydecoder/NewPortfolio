@@ -4,8 +4,10 @@ h1 {
 }
 .bootcamp-container {
     width: 100%;
-    background-color: #edeade; /* Light cream */
+    background-image: url('/assets/aboutBG.png');
     display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
     flex-direction:column;
     justify-content: center;
     align-items: center;
@@ -14,7 +16,7 @@ h1 {
 }
 .course-card {
  
-    background: #fff;
+    background: #ffffff46;
     width: 250px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -37,14 +39,13 @@ h1 {
 .course-title {
     font-size: 16px;
     font-weight: bold;
-    color: #333;
+    color:  #fc9700;
 }
 .course-description {
     font-size: 14px;
-    color: #666;
+    color: #ffffff;
     margin: 5px 0;
 }
-
 .start-learning {
     display: block;
     text-align: center;
@@ -57,6 +58,7 @@ h1 {
     font-size: 14px;
 }
 @media screen and (min-width: 1024px) {
+ 
     .bootcamp-container {
         height: 50vh;
         display: flex;
