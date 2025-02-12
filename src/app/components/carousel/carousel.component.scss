@@ -4,13 +4,32 @@
   height: 40vh;
   background-size: cover;
   background-repeat: no-repeat;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 .carousel{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   color: beige;
   width: 100%;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  display: none;
+}
+.carousel  h3{
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+
+.maintext{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .maintext h1{
   margin-top: -0%;
@@ -19,8 +38,8 @@
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .maintext p{
-  width: 40%;
-  margin-top: -1%;
+  width: 100%;
+  margin-top: 0%;
   font-size: 8px;
   text-align: center;
   color: white;
@@ -67,8 +86,8 @@ color: #fc9700;
   .carousel  h3{
     font-size: 15px;
     padding-top: 10%;
-    padding-left: 16%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
   }
   .fas{
     padding-top: 11.50%;
@@ -78,7 +97,6 @@ color: #fc9700;
   .maintext h1{
     margin-top: -0%;
     font-size: 50px;
-    padding-left: 16%;
   
     color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -87,7 +105,6 @@ color: #fc9700;
     width: 40%;
     margin-top: -1%;
     font-size: 15px;
-    padding-left: 16%;
 
     color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -104,6 +121,5 @@ color: #fc9700;
   }
 .ButtonContainer{
   width: 70%;
-  padding-left: 16%;
 }
 }
